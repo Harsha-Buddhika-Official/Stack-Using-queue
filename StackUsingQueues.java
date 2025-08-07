@@ -27,6 +27,7 @@ public class StackUsingQueues {
     // Removes the element on top of the stack
     public int pop() {
         if (q1.isEmpty()) throw new RuntimeException("Stack is empty");
+        System.out.println("Popping: " + q1.peek());
         return q1.dequeue();
     }
 
