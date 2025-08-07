@@ -1,7 +1,3 @@
-
-
-
-
 public class Main {
     public static void main(String[] args) {
         StackUsingQueues stack = new StackUsingQueues(5);
