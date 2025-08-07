@@ -15,16 +15,5 @@ public class Main {
         stack.pop();
         stack.pop();
         System.out.println("Is empty: " + stack.isEmpty()); // true
-
-        // Demonstrate QueueUsingArray
-        QueueUsingArray queue = new QueueUsingArray(5);
-        queue.enqueue(100);
-        queue.enqueue(200);
-        queue.enqueue(300);
-        System.out.println("Queue front: " + queue.peek()); // 100
-        System.out.println("Dequeue: " + queue.dequeue()); // 100
-        System.out.println("Queue front: " + queue.peek()); // 200
-        System.out.println("Queue size: " + queue.getSize()); // 2
-        System.out.println("Is queue empty: " + queue.isEmpty()); // false
     }
 }
